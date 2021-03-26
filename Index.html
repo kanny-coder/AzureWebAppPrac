@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body bgcolor="wheat">
+	<form name="reg_form" method="POST">
+	<fieldset>
+		<legend><b><u>Register Here</u></b></legend>
+		Name of Employee: &nbsp <input type="text" id="firstname" name="firstname" maxlength="25"><br><br>
+		Contact number: &nbsp <input type="text" id="contact" name="contact" maxlength="25"><br><br>
+		Email : &nbsp <input type="text" id="email" name="email" maxlength="25"><br><br>
+		Password: &nbsp <input type="password" id="password" name="password" maxlength="15"><br><br>
+		Designation: &nbsp <select name="designation" id="designation"> <option>Choose Designation</option><option>Software Dev</option><option>Software Tester</option><option>Debugger</option>
+				</select> <br><br>
+				
+		Choose your Gender: &nbsp <input type="radio" id="gender" name="gender" class="male">Male<input type="radio" id="gender" name="gender" class="female">Female<br><br>
+		
+		
+		Upload your Resume: <input type="file" accept="\image"><input type="submit"><br><br>
+		Your Registration Code is--<input type="text" class="code" id="code" value="V89GHIS7889" readonly="readonly"><br><br>
+		Unique id--<input type="text" class="code" id="code" value="88876648vhx" disabled="disabled"><br><br>
+		
+		<input type="checkbox" id="terms" name="terms" class="condition" checked="checked">I accept Terms and Conditions.<br><br>
+		
+
+		<input type="submit" class="submit" id="submit" value="Register">
+	</fieldset>
+	</form>
+</body>
+</html>
